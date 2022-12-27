@@ -17,7 +17,7 @@ pipeline {
         {
             steps
             {
-                git 'https://github.com/antezana-cecilia/FrontEnd'
+                git 'https://github.com/antezana-cecilia/FrontEnd.git'
 
                 sh 'npm install'
 
