@@ -19,7 +19,7 @@ pipeline {
             {
                 git 'https://github.com/antezana-cecilia/FrontEnd.git'
 
-                sh 'npm install'
+                bat 'npm install'
 
                 // dir('/src')
 
