@@ -19,14 +19,14 @@ pipeline {
             {
                 git 'https://github.com/antezana-cecilia/FrontEnd'
 
-                //sh 'npm install'
+                sh 'npm install'
 
-                dir('/src')
+                // dir('/src')
 
-                {
+                // {
 
-                // some block
-                }
+                // // some block
+                // }
             }
         }
     }
